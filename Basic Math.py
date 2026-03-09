@@ -114,6 +114,6 @@ elif selection == "10. Prime Number Checker":
                 break
 
     if is_prime:
-        st.success(f"✅ {num} is a Prime Number!")
+        st.success(f"{num} is a Prime Number!")
     else:
-        st.error(f"❌ {num} is NOT a Prime Number.")
+        st.error(f"{num} is NOT a Prime Number.")
